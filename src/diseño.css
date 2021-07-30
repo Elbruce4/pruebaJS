@@ -1,0 +1,40 @@
+* {
+    background-color: #888;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.cabecera {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: #d55;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cuerpo{
+    margin: 10px;
+    border: #5ff solid 5px;
+    padding: 3px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
